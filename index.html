@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> Login </title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik:400,700'>
+  <link rel="stylesheet" href="./css/1style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="login-form">
+  <form>
+    <h1>Enter password</h1>
+    <div class="content">
+      
+      <div class="input-field">
+        <input type="password" placeholder="Password"  id="pass">
+    
+    <div class="action">
+      <button onclick="myFunction()">Log in</button>
+    </div>
+  </form>
+</div>
+<!-- partial -->
+  <script>
+
+
+    function myFunction(){
+      var input = document.getElementById("pass").value;
+
+      if(input== "04082023"){
+         window.open("1index.html");
+
+      }
+      else{
+        alert("The password you've is enter is incorrect");
+      }
+
+    }
+  </script>
+
+</body>
+</html>
